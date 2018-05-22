@@ -1,3 +1,5 @@
+PROFILE.ZSOAP.messages=tests/generic/zsoap/profiles/messages.csv
+PROFILE.ZSOAP.searches=tests/generic/zsoap/profiles/searches.csv
 PROFILE.ZSOAP.type=sequence
 PROFILE.ZSOAP.sequence.1=GetDomainInfoRequest
 PROFILE.ZSOAP.sequence.2=AuthRequest(AUTHTYPE=admin)
@@ -65,7 +67,7 @@ PROFILE.ZSOAP.sequence.61=GetAvailableCsvFormatsRequest
 PROFILE.ZSOAP.sequence.62=CreateSearchFolderRequest
 PROFILE.ZSOAP.sequence.63=GetFolderRequest(PATH=/soapsearchtest)
 PROFILE.ZSOAP.sequence.64=FolderActionRequest(FOLDERACTIONTYPE=delete)
-PROFILE.ZSOAP.sequence.65=SendMsgRequest
+PROFILE.ZSOAP.sequence.65=SendMsgRequest(BODY="Send a Message Request");
 PROFILE.ZSOAP.sequence.66=CreateFolderRequest
 PROFILE.ZSOAP.sequence.67=GetFolderRequest(PATH=/soaptest)
 PROFILE.ZSOAP.sequence.68=FolderActionRequest(FOLDERACTIONTYPE=delete)

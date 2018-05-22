@@ -1,0 +1,8 @@
+PROFILE.ZSOAP.messages=tests/generic/zsoap/profiles/messages.csv
+PROFILE.ZSOAP.searches=tests/generic/zsoap/profiles/searches.csv
+PROFILE.ZSOAP.type=sequence
+PROFILE.ZSOAP.sequence.1=AuthRequest(AUTHTYPE=user)
+PROFILE.ZSOAP.sequence.2=SendMsgRequest(BODY=${message})
+PROFILE.ZSOAP.sequence.3=SendMsgRequest(BODY=${message})
+PROFILE.ZSOAP.sequence.4=SendMsgRequest(BODY=${message})
+PROFILE.ZSOAP.sequence.5=SearchRequest(SEARCHTYPE=message,SEARCH=${search})
